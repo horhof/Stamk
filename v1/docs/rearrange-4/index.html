@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Re-arranging 4 items · Stikstak</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;ol start=&quot;23&quot;&gt;
+&lt;li&gt;reverse4 (ABCD)&lt;/li&gt;
+&lt;/ol&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Re-arranging 4 items · Stikstak"/><meta property="og:type" content="website"/><meta property="og:url" content="https://horhof.github.io/Stikstak//Stickstak/v1/index.html"/><meta property="og:description" content="&lt;ol start=&quot;23&quot;&gt;
+&lt;li&gt;reverse4 (ABCD)&lt;/li&gt;
+&lt;/ol&gt;
+"/><meta property="og:image" content="https://horhof.github.io/Stikstak//Stickstak/v1/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://horhof.github.io/Stikstak//Stickstak/v1/img/docusaurus.png"/><link rel="shortcut icon" href="/Stickstak/v1/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/Stickstak/v1/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/Stickstak/v1/"><img class="logo" src="/Stickstak/v1/img/docusaurus.svg" alt="Stikstak"/><h2 class="headerTitleWithLogo">Stikstak</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/Stickstak/v1/docs/introduction" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Introduction</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Introduction</h3><ul><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/introduction">Stikstak</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/arrangement">Arrangement</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/rearrange-2">Re-arranging 2 items</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/rearrange-3">Re-arranging 3 items</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/Stickstak/v1/docs/rearrange-4">Re-arranging 4 items</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/copying">Copying</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Instructions</h3><ul><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">General</h4><ul><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/copy">Copy: x.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/move">Move: s, d.</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Specific</h4><ul><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/circle">Circle.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/dup">Dup.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/roll">Roll x.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/rolldown">Rolldown: x.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/rotate">Rotate.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/swap">Swap.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/swap-1">Swap: 1.</a></li><li class="navListItem"><a class="navItem" href="/Stickstak/v1/docs/unrotate">Unrotate.</a></li></ul></div></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Re-arranging 4 items</h1></header><article><div><span><ol start="23">
+<li>reverse4 (ABCD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/reverse4.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="two-levels-at-once"></a><a href="#two-levels-at-once" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Two levels at once</h2>
+<ol start="7">
+<li>swap2 (CDAB)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/swap2.png" alt="Stack diagram"></p>
+<ol start="17">
+<li>rotate2 (BADC)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/rotate2.png" alt="Stack diagram"></p>
+<ol start="21">
+<li>circle2 (ACBD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/circle2.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="skip-first-level"></a><a href="#skip-first-level" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Skip first level</h2>
+<ol start="8">
+<li>swap+2 (CDBA)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/swap-2.png" alt="Stack diagram"></p>
+<ol start="10">
+<li>rotate+1 (CBDA)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/rotate-1.png" alt="Stack diagram"></p>
+<ol start="13">
+<li>unrotate+1 (BDCA)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/unrotate-1.png" alt="Stack diagram"></p>
+<ol start="15">
+<li>circle+1 (BCDA)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/circle-1.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="four-level-rolls"></a><a href="#four-level-rolls" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Four-level rolls</h2>
+<ol start="9">
+<li>4 <a href="/Stickstak/v1/docs/roll">roll</a> (CBAD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/4-roll.png" alt="Stack diagram"></p>
+<ol start="20">
+<li>4 rolldown (ADCB)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/4-rolldown.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="changing-insides-and-outsides"></a><a href="#changing-insides-and-outsides" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changing insides and outsides</h2>
+<ol start="12">
+<li>unswapout (CADB)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/unswapout.png" alt="Stack diagram"></p>
+<ol start="14">
+<li>swapout (BDAC)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/swapout.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="rollswapping"></a><a href="#rollswapping" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rollswapping</h2>
+<ol start="18">
+<li>rollswap (BACD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/rollswap.png" alt="Stack diagram"></p>
+<ol start="24">
+<li>rolldownswap (ABDC)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/rolldownswap.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="unnamed"></a><a href="#unnamed" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unnamed</h2>
+<ol start="11">
+<li>(CABD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/cabd.png" alt="Stack diagram"></p>
+<ol start="16">
+<li>(BCAD)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/bcad.png" alt="Stack diagram"></p>
+<ol start="19">
+<li>(ADBC)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/adbc.png" alt="Stack diagram"></p>
+<ol start="22">
+<li>(ACDB)</li>
+</ol>
+<p><img src="/Stickstak/v1/docs/assets/acdb.png" alt="Stack diagram"></p>
+<h2><a class="anchor" aria-hidden="true" id="listing"></a><a href="#listing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Listing</h2>
+<ol start="7">
+<li>DCBA → CDAB</li>
+<li>DCBA → CDBA</li>
+<li>DCBA → CBAD</li>
+<li>DCBA → CBDA</li>
+<li>DCBA → CABD</li>
+<li>DCBA → CADB</li>
+<li>DCBA → BDCA</li>
+<li>DCBA → BDAC</li>
+<li>DCBA → BCDA</li>
+<li>DCBA → BCAD</li>
+<li>DCBA → BADC</li>
+<li>DCBA → BACD</li>
+<li>DCBA → ADBC</li>
+<li>DCBA → ADCB</li>
+<li>DCBA → ACBD</li>
+<li>DCBA → ACDB</li>
+<li>DCBA → ABCD</li>
+<li>DCBA → ABDC</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/Stickstak/v1/docs/rearrange-3"><span class="arrow-prev">← </span><span>Re-arranging 3 items</span></a><a class="docs-next button" href="/Stickstak/v1/docs/copying"><span>Copying</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#two-levels-at-once">Two levels at once</a></li><li><a href="#skip-first-level">Skip first level</a></li><li><a href="#four-level-rolls">Four-level rolls</a></li><li><a href="#changing-insides-and-outsides">Changing insides and outsides</a></li><li><a href="#rollswapping">Rollswapping</a></li><li><a href="#unnamed">Unnamed</a></li><li><a href="#listing">Listing</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/Stickstak/v1/" class="nav-home"><img src="/Stickstak/v1/img/docusaurus.svg" alt="Stikstak" width="66" height="58"/></a><div><h5>Docs</h5><a href="/Stickstak/v1/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/Stickstak/v1/docs/en/doc2.html">Guides (or other categories)</a><a href="/Stickstak/v1/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/Stickstak/v1/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/Stickstak/v1/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/Stickstak/v1/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright"></section></footer></div></body></html>
