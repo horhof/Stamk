@@ -29,10 +29,10 @@ export class Stikstak<T> {
     this._data[offset] = value
   }
 
-  move() {
+  move(source: number, destination: number) {
   }
 
-  roll() {
+  roll(x: number) {
   }
 
   rotate() {
@@ -46,9 +46,9 @@ export class Stikstak<T> {
     this.set(this.ultimate, this.size - 1)
   }
 
-  copy() {
+  copy(x: number) {
   }
 
-  dupe() {
+  dup() {
   }
 }
