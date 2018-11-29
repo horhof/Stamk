@@ -3,21 +3,21 @@ id: rearrange-3
 title: Re-arranging 3 items
 ---
 
-3. [swap+1][]
+3. [Swap 1]
 
-![](assets/swap+1.png)
+![Stack diagram](assets/swap-1.png)
 
-4. [rotate][]
+4. [Rotate]
 
-![](assets/rotate.png)
+![Stack diagram](assets/rotate.png)
 
-5. [unrotate][]
+5. [Unrotate]
 
-![](assets/unrotate.png)
+![Stack diagram](assets/unrotate.png)
 
-6. [circle][]
+6. [Circle]
 
-![](assets/circle.png)
+![Stack diagram](assets/circle.png)
 
 ## Listing
 
@@ -27,7 +27,7 @@ title: Re-arranging 3 items
 6. ABC → ABC
 
 
-[swap+1]: instructions/swap+1
-[rotate]: instructions/rotate
-[unrotate]: instructions/unrotate
-[circle]: instructions/circle
+[swap 1]: swap-1.md
+[rotate]: rotate.md
+[unrotate]: unrotate.md
+[circle]: circle.md

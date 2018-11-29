@@ -5,7 +5,7 @@ title: Re-arranging 2 items
 
 2. [Swap](swap.md)
 
-![Swap stack diagram](assets/swap.png)
+![Stack diagram](assets/swap.png)
 
 ## Listing
 

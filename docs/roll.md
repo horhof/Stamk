@@ -1,6 +1,6 @@
 ---
 id: roll
-title: Roll: x.
+title: Roll x.
 ---
 
 Level x becomes level 1. Everything below level x moves up the stack. This is an alias for [move x 1](move).

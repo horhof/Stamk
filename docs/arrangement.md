@@ -7,7 +7,7 @@ Arrangement instructions move items within the stack between levels without addi
 
 ## Binary
 
-* [m](move.md)
+* [Move]
 
 ### Unary
 
@@ -23,13 +23,13 @@ Arrangement instructions move items within the stack between levels without addi
 
 ## All manipulations
 
-The number of stack manipulations at each level is *nPr(n, n)*. At each level, only new permutations not matching those at a previous level are shown. (The identity permutation is also not shown.)
+The number of stack manipulations at each level is nPr(*n*, *n*). At each level, only new permutations not matching those at a previous level are shown. (The identity permutation is also not shown.)
 
-|  *n*  | *nPr(n, n)* |  New  |
-| :---: | :---------: | :---: |
-|  [2]  |      2      |   2   |
-|  [3]  |      6      |   4   |
-|  [4]  |     24      |  20   |
+|  *n*  | nPr(*n*, *n*) |  New  |
+| :---: | :-----------: | :---: |
+|  [2]  |       2       |   2   |
+|  [3]  |       6       |   4   |
+|  [4]  |      24       |  20   |
 
 
   [2]: rearrange-2.md
